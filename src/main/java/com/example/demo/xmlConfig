@@ -1,0 +1,6 @@
+<beans>
+
+  <bean id="phone" class="Samsung"></bean>
+  <bean id="cpu" class="Snapdragon"></bean>
+
+</beans>
