@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class Samsung {
      
 	@Autowired
-	@Qualifier("mediaTek")
+	//@Qualifier("snapdragon")
 	MobileProcessor cpu;
 
 	public MobileProcessor getCpu() {
@@ -22,6 +22,6 @@ public class Samsung {
 	
 	public void config() {
 		System.out.println("ram 4gb, 12mp camera,rom 65gb");
-		//cpu.process();
+		cpu.process();
 	}
 }

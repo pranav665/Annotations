@@ -15,7 +15,7 @@ public class LearnAnnotationApplication {
 		//annotation based configuration
 	    ApplicationContext factory= new AnnotationConfigApplicationContext(AutoConfig.class);
 				
-		Samsung s7 = factory.getBean(Samsung.class);
+		Samsung s7 = (Samsung)factory.getBean("samsung");
 		s7.config();
 	} 
 
